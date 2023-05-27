@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Wix+Madefor+Display&display=swap');
+
+body{
+    background-color: #333;
+}
+   
+.play-button {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .play-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .play-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 20px solid #fff;
+  }
+  
+  .play-button:hover {
+    cursor: pointer;
+  }
+
+  img{
+      width: 300px;
+      height: 200px;
+      display: flex;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      border: 2px solid #fff;
+      box-shadow: 0 0 5px #afafaf;
+  }
+  .play3{
+      display: flex;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 300px;
+      height: 200px;
+      border-radius: 5px;
+      border: 2px solid #fff;
+      box-shadow: 5px 5px rgb(255, 0, 0);
+      background-image: url(hq721.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  .play2{
+      display: flex;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 300px;
+      height: 200px;
+      border-radius: 5px;
+      border: 2px solid #fff;
+      box-shadow: 5px 5px rgb(255, 0, 0);
+      background-image: url(hq720.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  .play1{
+      display: flex;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 300px;
+      height: 200px;
+      border-radius: 5px;
+      border: 2px solid #fff;
+      box-shadow: 5px 5px 5px 5px rgb(255, 0, 0);
+      background-image: url(hqdefault.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  h2{
+      text-align: center;
+      color: rgb(255, 0, 0);
+      font-size: x-large;
+      font-weight: bold;
+     font-family: 'Wix Madefor Display', sans-serif;
+
+  }
+  p{
+      text-align: center;
+      color: rgb(255, 0, 0);
+      font-size: 15px;
+      font-weight: lighter;
+     font-family: 'Wix Madefor Display', sans-serif;
+
+  }
+  h3{
+      text-align: center;
+      color: rgb(255, 0, 0);
+      font-size: x-large;
+      font-weight: bold;
+     font-family: 'Wix Madefor Display', sans-serif;
+
+  }
+
+  .play4{
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: 5px 3px 3px 2px rgb(255, 0, 0);
+    background-image: url(hqdefault2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.play5{
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: 5px 3px 3px 2px rgb(255, 17, 0);
+    background-image: url(hqdefault3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+   font-family: 'Wix Madefor Display', sans-serif;
+
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .play-button:hover {
+    cursor: pointer;
+    animation: pulse 0.5s infinite;
+  }
